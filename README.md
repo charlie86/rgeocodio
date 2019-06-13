@@ -3,18 +3,18 @@
 
 NOTE: You need an [API key](https://dash.geocod.io/) to use this package.
 
-There is a *great deal* of API documentation in the main pacakge help page. It is *highly* suggested you do `help("rgeocodio-package")` after installing the package.
+There is a *great deal* of API documentation in the main package help page. It is *highly* suggested you do `help("rgeocodio-package")` after installing the package.
 
 The following functions are implemented:
 
--   `gio_auth`: Get or set GEOCODIO\_API\_KEY value
+-   `gio_auth`: Get or set `GEOCODIO\_API\_KEY` value
 -   `gio_batch_geocode`: Geocode up to 10,000 addresses
 -   `gio_batch_reverse`: Reverse geocode up to 10,000 coordinates
 -   `gio_geocode`: Geocode a single address
 -   `gio_geocode_components`: Geocode a single address
 -   `gio_reverse`: Reverse geocode a single lat/lon pair
 
-All functions return tidy `tibble`s with sane column names.
+All functions return tidy `tibble`s with same column names.
 
 ### TODO
 
@@ -35,7 +35,7 @@ devtools::install_github("hrbrmstr/rgeocodio")
 ``` r
 library(rgeocodio)
 
-# current verison
+# current version
 packageVersion("rgeocodio")
 ```
 
